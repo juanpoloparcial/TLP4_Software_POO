@@ -1,4 +1,3 @@
-// torneo_amistoso_clases.js
 const readline = require("readline");
 
 const rl = readline.createInterface({
@@ -104,7 +103,7 @@ class PartidoAmistoso {
   }
 }
 
-// ==================== MAIN ====================
+// ==================== INICIO ====================
 
 async function main() {
   const tipo = await preguntar("¿Qué tipo de evento se juega? (Amistoso/Torneo): ");
